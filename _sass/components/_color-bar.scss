@@ -1,0 +1,28 @@
+%color-bar::before,
+.color-bar::before {
+  // animation: gradient-animated 30s ease infinite;
+  background-image: linear-gradient(
+    90deg,
+    rgba(242, 192, 0, 1) 0%,
+    rgba(1, 168, 168, 1) 55.48%,
+    rgba(80, 130, 229, 1) 100%
+  );
+  // background-size: 200% 100%;
+  content: '';
+  display: block;
+  height: 5px;
+}
+
+@keyframes gradient-animated {
+  0% {
+    background-position-x: 0%;
+  }
+
+  50% {
+    background-position-x: 100%;
+  }
+
+  100% {
+    background-position-x: 0%;
+  }
+}
