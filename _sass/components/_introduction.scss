@@ -3,21 +3,31 @@
 }
 
 .introduction a {
-  background: rgba(#b4dd00, .1);
-  color: #333;
-  padding: .35em;
+  border-bottom: 1px dotted #1472ce;
+  color: #1472ce;
+  margin: 0 .35em;
+  padding: 0;
   text-decoration: none;
+  transition: all .25s ease;
+
+  &:focus,
+  &:hover {
+    background: #b4dd00;
+    border: 0;
+    color: #333;
+    margin: 0;
+    padding: .35em;
+  }
 }
 
 .introduction h1 {
-  font-family: 'Arbutus Slab';
+  font-family: 'IBM Plex Sans';
   font-size: 3em;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.3;
   margin-bottom: .5em;
 }
 
 .introduction p {
-  font-family: 'Nanum Gothic';
   font-size: 1.5em;
 }
