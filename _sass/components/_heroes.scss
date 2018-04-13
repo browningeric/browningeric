@@ -1,6 +1,78 @@
+.hero-hearthstone {
+  background: #323f2b;
+  //background: linear-gradient(180deg, rgba(141,41,86,1) 0%, rgba(187,70,97,1) 12%, rgba(187,70,97,1) 100%);
+  padding-top: 4em;
+
+  & h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
+.hero-mcto {
+  background: #18475d;
+  //background: linear-gradient(180deg, rgba(141,41,86,1) 0%, rgba(187,70,97,1) 12%, rgba(187,70,97,1) 100%);
+  padding-top: 4em;
+
+  & h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
 .hero-peak {
   background: rgb(141,41,86);
   background: linear-gradient(180deg, rgba(141,41,86,1) 0%, rgba(187,70,97,1) 12%, rgba(187,70,97,1) 100%);
+  padding-top: 4em;
+
+  & h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
+.hero-polar-puzzles {
+  background: #9bbaf8;
+  //background: linear-gradient(180deg, rgba(141,41,86,1) 0%, rgba(187,70,97,1) 12%, rgba(187,70,97,1) 100%);
+  padding-top: 4em;
+
+  & h1 {
+    color: #232352;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
+.hero-shadowrift {
+  background: #201815;
+  //background: linear-gradient(180deg, rgba(141,41,86,1) 0%, rgba(187,70,97,1) 12%, rgba(187,70,97,1) 100%);
   padding-top: 4em;
 
   & h1 {

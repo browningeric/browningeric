@@ -22,4 +22,10 @@
   .inline-image {
     padding: 1.5em 0;
   }
+
+  .limit-width-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
 }
