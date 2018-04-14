@@ -1,0 +1,26 @@
+.skills-container {
+  @media screen and (min-width: $middle-screen) {
+    display: flex;
+  }
+  margin: 1.5em 0 1em;
+
+  ul {
+    margin-left: 1em;
+  }
+
+  ul li {
+    line-height: 1.75;
+    list-style-type: circle;
+  }
+}
+
+.skills-subhead {
+  color: #999;
+  font-size: 85%;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.skills-list-team {
+  flex: 0 0 50%;
+}

@@ -1,22 +1,10 @@
 .case-study {
-  @media screen and (min-width: $large-screen) {
-    // font-size: 140%;
-
-    // p {
-    //   line-height: 1.6;
-    // }
-  }
-
   section {
     padding: 2em 0;
 
     @media screen and (min-width: $large-screen) {
       padding: 3em 0;
     }
-  }
-
-  .container {
-    max-width: 40em;
   }
 
   .inline-image {

@@ -14,6 +14,7 @@
   padding: 0;
   text-decoration: none;
   transition: all .25s ease;
+  white-space: nowrap;
 
   &:focus,
   &:hover {
@@ -27,20 +28,23 @@
 
 .introduction h1 {
   font-family: 'IBM Plex Sans';
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 1.3;
   margin-bottom: .5em;
 
+  @media screen and (min-width: $middle-screen) {
+    font-size: 2em;
+  }
+
   @media screen and (min-width: $large-screen) {
-    font-size: 2.75em;
+    font-size: 2.5em;
   }
 }
 
 .introduction p {
-  font-size: 1em;
-
+  font-size: 1.25em;
   @media screen and (min-width: $large-screen) {
-    font-size: 1.25em;
+    font-size: 1.35em;
   }
 }
