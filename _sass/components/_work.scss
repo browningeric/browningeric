@@ -1,3 +1,8 @@
+.container--inline-image {
+  align-items: center;
+  display: flex;
+}
+
 .work-sample {
   color: #fff;
   padding: 2em 0;
@@ -8,6 +13,7 @@
 
   h3 {
     font-size: 1.8em;
+    line-height: 1.3;
   }
 
   h4 {
@@ -27,7 +33,7 @@
       display: inline-block;
       font-size: 60%;
       line-height: 1.2;
-      margin: 0 .75em .75em 0;
+      margin: 0 .5em .5em 0;
       text-transform: uppercase;
       vertical-align: baseline;
     }
@@ -36,22 +42,100 @@
 
 .work-sample--hearthstone {
   background: #323f2b;
+  background: url("/assets/images/callout-bg-hs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-width: $middle-screen) {
+    padding: 0;
+  }
+  img {
+    display: none;
+    @media screen and (min-width: $middle-screen) {
+      display: inline-block;   
+      height: 350px;
+      margin-bottom: -1.5rem;
+      max-width: none;
+
+      width: auto;
+    }
+    @media screen and (min-width: $large-screen) {
+      margin-top: -2.25em;
+    }
+  }
+}
+
+.work-sample--more {
+  color: #111111;
+  a {
+  border-bottom: 1px dotted #1472ce;
+  color: #1472ce;
+  margin: 0 .25em;
+  padding: 0;
+  text-decoration: none;
+  transition: all .25s ease;
+  white-space: nowrap;
+
+    &:focus,
+    &:hover {
+      background: #b4dd00;
+      border: 0;
+      color: #333;
+      margin: 0;
+      padding: .25em;
+    }
+  }
 }
 
 .work-sample--mcto {
   background: #18475d;
+  background: url("/assets/images/callout-mcto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .work-sample--peak {
   background: rgb(141,41,86);
+  background: url("/assets/images/callout-peak.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .work-sample--polar-puzzles {
   background: #9bbaf8;
+  background: url("/assets/images/callout-bg-pp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #232352;
+
+  img {
+    display: none;
+    @media screen and (min-width: $middle-screen) {
+      display: inline-block;   
+      height: 320px;
+      margin-bottom: -2.75rem;
+      margin-top: -4.25em;
+      max-width: none;
+      padding-left: 1.5em;
+      width: auto;
+    }
+    @media screen and (min-width: $large-screen) {
+      margin-bottom: -3.5rem;
+      margin-top: -4.25em;
+      padding-left: 3em;
+    }
+  }
+
+  .skills-list li {
+    background: rgba(#fff, .3);
+    color: rgba(#232352, .75);
+  }
 }
 
 .work-sample--shadowrift {
-  background: #201815;
+  background: #222;
+  background: url("/assets/images/callout-shadowrift.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
