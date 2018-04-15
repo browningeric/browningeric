@@ -21,6 +21,14 @@
   text-transform: uppercase;
 }
 
+.skills-subhead--team {
+  color: darken(#b4dd00, 7%);
+}
+
+.skills-subhead--technical {
+  color: #1472ce;
+}
+
 .skills-list-team {
   flex: 0 0 50%;
 }
