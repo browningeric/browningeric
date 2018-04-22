@@ -1,0 +1,21 @@
+.audiomart-image {
+  padding: 1.25em 0;
+}
+
+.spotify-detail-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em 0;
+}
+
+.spotify-nav-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 175px;
+  padding: 1.25em 1.5em 1.25em 0;
+  @media screen and (min-width: $middle-screen) {
+    float: left;
+    max-width: 250px;
+  }
+}
