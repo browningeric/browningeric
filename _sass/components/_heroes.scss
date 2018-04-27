@@ -1,3 +1,21 @@
+.hero-craftycloud {
+  background: #8f4824;
+  color: #fff;
+  padding-top: 4em;
+
+  & h1 {
+    
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
 .hero-hearthstone {
   background: #323f2b;
   color: #fff;
