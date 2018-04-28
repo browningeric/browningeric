@@ -40,6 +40,13 @@
   }
 }
 
+.work-sample--craftycloud {
+  background: #8e4623;
+  background: url("http://res.cloudinary.com/browningeric/image/upload/v1524881120/callout-craftycloud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .work-sample--hearthstone {
   background: #323f2b;
   background: url("http://res.cloudinary.com/browningeric/image/upload/v1523890417/callout-bg-hs.jpg");
@@ -52,7 +59,7 @@
   img {
     display: none;
     @media screen and (min-width: $middle-screen) {
-      display: inline-block;   
+      display: inline-block;
       height: 350px;
       margin-bottom: -1.5rem;
       max-width: none;
@@ -111,7 +118,7 @@
   img {
     display: none;
     @media screen and (min-width: $middle-screen) {
-      display: inline-block;   
+      display: inline-block;
       height: 320px;
       margin-bottom: -2.75rem;
       margin-top: -4.25em;
@@ -138,4 +145,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
