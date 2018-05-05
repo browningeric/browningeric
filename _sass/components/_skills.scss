@@ -1,6 +1,8 @@
 .skills-container {
   @media screen and (min-width: $almost-middle-screen) {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   margin: 1.5em 0 1em;
 
@@ -29,6 +31,5 @@
   color: #1472ce;
 }
 
-.skills-list-team {
-  flex: 0 0 50%;
+.skills-list {
 }
