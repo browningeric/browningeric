@@ -4,6 +4,11 @@
   }
   & .introduction {
     margin-top: 1em;
+
+    span {
+      display: inline-block;
+      margin-top:.75em;
+    }
   }
   & .introduction a {
     &:focus,
