@@ -39,8 +39,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'IBM Plex Sans';
-  font-weight: bold;
+  font-family: 'Rubik';
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 hr {
