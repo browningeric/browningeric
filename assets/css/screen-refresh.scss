@@ -2,8 +2,8 @@
 ---
 $baseurl:"{{ site.baseurl }}";
 @import 'variables';
-@import 'base';
-@import 'layout';
+@import 'base-refresh';
+@import 'layout-refresh';
 @import 'components/angled-edges';
 @import 'components/back-button';
 @import 'components/case-study';
