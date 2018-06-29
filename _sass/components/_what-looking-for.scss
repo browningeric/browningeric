@@ -1,4 +1,43 @@
 .what-looking-for {
   background-color: #080a26;
+  background-image: url($baseurl + '/assets/images/goals-bg.png');
+  background-position: top -25% right 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
+  padding: 12vmax 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  .color-green {
+    color: #7ed321;
+  }
+
+  .color-orange {
+    color: #f5a623;
+  }
+
+  .color-yellow {
+    color: #f8e71c;
+  }
+
+  .container {
+    max-width: 30em;
+  }
+
+  .description {
+    font-size: 1.25em;
+  }
+
+  .subhead {
+    font-size: 80%;
+    letter-spacing: .05em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
 }
