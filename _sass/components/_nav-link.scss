@@ -50,14 +50,19 @@
   }
 }
 .nav-link-container {
-  display: flex;
+  display: none;
+  @media screen and (min-width: $middle-screen) {
+    display: flex;
+  }
   margin: -8vmax auto 0;
   max-width: 800px;
   position: relative;
   width: 100%;
   z-index: 2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .nav-link-icon {
   margin-top: .25em;
-  max-width: 16px;
+  max-width: 14px;
 }
