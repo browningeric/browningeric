@@ -1,13 +1,15 @@
+$brand-color: #ec3430;
+
 .tanium {
   & .contact-links {
     margin-left: -.4em;
   }
 
   & .contact-links a {
-    color: #ec3430;
+    color: $brand-color;
     &:focus,
     &:hover {
-      background: #ec3430;
+      background: $brand-color;
       color: #fff;
     }
   }
@@ -61,19 +63,19 @@
 
     &:focus,
     &:hover {
-      background: #ec3430;
+      background: $brand-color;
       color: #fff;
     }
   }
 
   .work-intro a {
-    color: #ec3430;
+    color: $brand-color;
   }
   .work-sample--more {
     a {
       &:focus,
       &:hover {
-        background: #ec3430;
+        background: $brand-color;
         color: #fff;
       }
     }
