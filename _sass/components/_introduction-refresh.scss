@@ -28,9 +28,12 @@
     margin: 2em 0;
     a {
       color: #f5ad38;
+      display: inline-block;
       padding: .5em;
       transition: all 0.35s ease;
       text-decoration: underline;
+      white-space: nowrap;
+
 
       &:focus,
       &:hover {
@@ -40,6 +43,10 @@
       }
     }
     .divider {
+      display: none;
+      @media screen and (min-width: $almost-middle-screen) {
+        display: inline-block;
+      }
       opacity: .4;
       margin: 0 0.8em;
     }
