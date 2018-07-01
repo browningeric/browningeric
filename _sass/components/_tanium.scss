@@ -2,14 +2,6 @@
   & .contact-links {
     margin-left: -.4em;
   }
-  & .introduction {
-    margin-top: 1em;
-
-    span {
-      display: inline-block;
-      margin-top:.75em;
-    }
-  }
   & .introduction a {
     &:focus,
     &:hover {
@@ -47,10 +39,9 @@
 
 .tanium-header-image {
   display: block;
-  margin: 0 auto;
-  max-width: 100px;
+  max-width: 85px;
   @media screen and (min-width: $middle-screen) {
-    max-width: 200px;
+    max-width: 120px;
   }
   padding-bottom: 1.5em;
   width: 100%;

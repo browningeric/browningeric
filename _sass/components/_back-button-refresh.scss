@@ -31,14 +31,25 @@
 }
 
 .resume-button {
-  background: rgba(#fff,.25);
-  border-radius: 1.4rem;
+  background: rgba(#fff,.3);
+  border-radius: .25rem;
   color: rgba(#000, .85);
   font-size: .8rem;
-  padding: .75rem 2rem;
+  padding: .35rem 1rem;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.35s ease;
+  @media screen and (min-width: $middle-screen) {
+    border-radius: 1.4rem;
+    padding: .75rem 2rem;
+  }
+
+  span {
+    display: none;
+    @media screen and (min-width: $middle-screen) {
+      display: inline;
+    }
+  }
 
   &:focus,
   &:hover {
@@ -50,10 +61,5 @@
 .resume-button-container {
   display: flex;
   justify-content: flex-end;
-}
-
-.resume-button-container-refresh {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 1.5em;
+  margin-right: 1.75em;
 }
