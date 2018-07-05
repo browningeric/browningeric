@@ -1,0 +1,93 @@
+$brand-color: #ea5731;
+
+.auth0 {
+  & .contact-links {
+    margin-left: -.4em;
+  }
+
+  & .contact-links a {
+    color: $brand-color;
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  & .introduction {
+    background-color: #26252d;
+    background-image: linear-gradient(-77deg, rgba(#26252d,0.95) 6%, rgba(#323139,0.95) 79%);
+    padding: 3.5vmax 0 10vmax;
+  }
+
+  & .introduction::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url($baseurl + '/assets/images/auth0/logo.svg');
+      background-position: right -15vmax top -15vmax;
+      background-repeat: no-repeat;
+      background-size: 80vmax;
+      opacity: 0.05;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+  & .introduction-border {
+      background-color: #1b1d23;
+      height: 1000px;
+      margin-top: -950px;
+      z-index: -1;
+    }
+
+
+  & .introduction h1 {
+    font-size: 1.85em;
+    @media screen and (min-width: $middle-screen) {
+      font-size: 2em;
+    }
+    @media screen and (min-width: $large-screen) {
+      font-size: 2.75em;
+    }
+  }
+
+  & .introduction h2 {
+    @media screen and (min-width: $large-screen) {
+      font-size: 1.7em;
+    }
+  }
+  .resume-button {
+
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  .work-intro a {
+    color: $brand-color;
+  }
+  .work-sample--more {
+    a {
+      &:focus,
+      &:hover {
+        background: $brand-color;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.auth0-header-image {
+  display: block;
+  max-width: 80px;
+  @media screen and (min-width: $middle-screen) {
+    max-width: 110px;
+  }
+  padding-bottom: 1.25em;
+  width: 100%;
+}
