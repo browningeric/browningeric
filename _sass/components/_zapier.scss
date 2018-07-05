@@ -1,19 +1,52 @@
+$brand-color: #ff4a00;
+
 .zapier {
   & .contact-links {
     margin-left: -.4em;
   }
-  & .introduction {
-    margin-top: 1em;
-  }
-  & .introduction a {
+
+  & .contact-links a {
+    color: $brand-color;
     &:focus,
     &:hover {
-      background: #ff4a00;
+      background: $brand-color;
       color: #fff;
     }
   }
+
+  & .introduction {
+    background-color: #354147;
+    background-image: linear-gradient(-77deg, rgba(53,65,71,0.95) 6%, rgba(32,39,43,0.95) 79%);
+    padding: 3.5vmax 0 10vmax;
+  }
+
+  & .introduction::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url($baseurl + '/assets/images/zapier/logo.svg');
+      background-position: right -10vmax top -10vmax;
+      background-repeat: no-repeat;
+      background-size: 60vmax;
+      opacity: 0.05;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+  & .introduction-border {
+      background-color: #3d4c52;
+      height: 1000px;
+      margin-top: -950px;
+      z-index: -1;
+    }
+
+
   & .introduction h1 {
     font-size: 1.85em;
+    max-width: none;
     @media screen and (min-width: $middle-screen) {
       font-size: 2em;
     }
@@ -21,19 +54,29 @@
       font-size: 2.75em;
     }
   }
+
+  & .introduction h2 {
+    @media screen and (min-width: $large-screen) {
+      font-size: 1.7em;
+    }
+  }
   .resume-button {
 
     &:focus,
     &:hover {
-      background: #ff4a00;
+      background: $brand-color;
       color: #fff;
     }
+  }
+
+  .work-intro a {
+    color: $brand-color;
   }
   .work-sample--more {
     a {
       &:focus,
       &:hover {
-        background: #ff4a00;
+        background: $brand-color;
         color: #fff;
       }
     }
@@ -42,10 +85,9 @@
 
 .zapier-header-image {
   display: block;
-  margin: 0 auto;
-  max-width: 120px;
+  max-width: 90px;
   @media screen and (min-width: $middle-screen) {
-    max-width: 240px;
+    max-width: 145px;
   }
   padding-bottom: 1.5em;
   width: 100%;
