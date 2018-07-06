@@ -1,0 +1,94 @@
+$brand-color: #f27a38;
+
+.heap {
+  & .contact-links {
+    margin-left: -.4em;
+  }
+
+  & .contact-links a {
+    color: $brand-color;
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  & .introduction {
+    background-color: #451f68;
+    background-image: linear-gradient(-85deg, rgba(#451f68,0.95) 9%, rgba(#572b82,0.95) 79%);
+    padding: 3.5vmax 0 10vmax;
+  }
+
+  & .introduction::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-image: url($baseurl + '/assets/images/heap/logo.svg');
+      background-position: right -20vmax top -20vmax;
+      background-repeat: no-repeat;
+      background-size: 60vmax;
+      opacity: 0.15;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+  & .introduction-border {
+      background-color: #663497;
+      height: 1000px;
+      margin-top: -950px;
+      z-index: -1;
+    }
+
+
+  & .introduction h1 {
+    font-size: 1.85em;
+    max-width: none;
+    @media screen and (min-width: $middle-screen) {
+      font-size: 2em;
+    }
+    @media screen and (min-width: $large-screen) {
+      font-size: 2.75em;
+    }
+  }
+
+  & .introduction h2 {
+    @media screen and (min-width: $large-screen) {
+      font-size: 1.7em;
+    }
+  }
+  .resume-button {
+
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  .work-intro a {
+    color: $brand-color;
+  }
+  .work-sample--more {
+    a {
+      &:focus,
+      &:hover {
+        background: $brand-color;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.heap-header-image {
+  display: block;
+  max-width: 80px;
+  @media screen and (min-width: $middle-screen) {
+    max-width: 100px;
+  }
+  padding-bottom: 1.5em;
+  width: 100%;
+}
