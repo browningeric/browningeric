@@ -34,7 +34,7 @@ $brand-color: #eb0c50;
       background-position: right -20vmax top -20vmax;
       background-repeat: no-repeat;
       background-size: 60vmax;
-      opacity: 0.1;
+      opacity: 0.085;
       pointer-events: none;
       z-index: -1;
     }
@@ -87,9 +87,9 @@ $brand-color: #eb0c50;
 
 .astro-hq-header-image {
   display: block;
-  max-width: 100px;
+  max-width: 90px;
   @media screen and (min-width: $middle-screen) {
-    max-width: 150px;
+    max-width: 140px;
   }
   padding-bottom: .5em;
   width: 100%;
