@@ -1,0 +1,80 @@
+$brand-color: #f43721;
+
+.ahm {
+  & .contact-links {
+    margin-left: -.4em;
+  }
+
+  & .contact-links a {
+    color: #fff;
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  & .introduction {
+    background-color: #3E6383;
+    background-image: linear-gradient(-262deg, #6fa8c3 15%, #553e8b 89%);
+    padding: 3.5vmax 0 10vmax;
+  }
+
+  & .introduction::after {
+    }
+
+  & .introduction-border {
+      background-color: #687f91;
+      height: 1000px;
+      margin-top: -950px;
+      z-index: -1;
+    }
+
+
+  & .introduction h1 {
+    font-size: 1.85em;
+    @media screen and (min-width: $middle-screen) {
+      font-size: 2em;
+    }
+    @media screen and (min-width: $large-screen) {
+      font-size: 2.75em;
+    }
+  }
+
+  & .introduction h2 {
+    @media screen and (min-width: $large-screen) {
+      font-size: 1.7em;
+    }
+  }
+  .resume-button {
+
+    &:focus,
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+
+  .work-intro a {
+    color: $brand-color;
+  }
+  .work-sample--more {
+    a {
+      &:focus,
+      &:hover {
+        background: $brand-color;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.ahm-header-image {
+  display: block;
+  max-width: 150px;
+  @media screen and (min-width: $middle-screen) {
+    max-width: 300px;
+  }
+  padding-bottom: 2.5em;
+  width: 100%;
+}
