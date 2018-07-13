@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="244px" viewBox="0 0 212 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group + resin_text</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-+-resin_text" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.500000, 0.000000)">
+                <g id="Shape">
+                    <polygon fill="#E0A800" points="105.67438 0 0 61 105.67438 122 211 61"></polygon>
+                    <polygon fill="#FFEC52" points="0 61 0 183 105.67438 244 105.67438 122"></polygon>
+                    <polygon fill="#F7C30F" points="105.67438 244 211 183 211 61 105.67438 122"></polygon>
+                </g>
+                <g id="Shape" transform="translate(105.419471, 121.520000) rotate(180.000000) translate(-105.419471, -121.520000) translate(35.419471, 40.520000)">
+                    <polygon fill="#E0A800" points="69.7450909 0 0 40.26 69.7450909 80.52 139.26 40.26"></polygon>
+                    <polygon fill="#FFEC52" points="0 40.26 0 120.78 69.7450909 161.04 69.7450909 80.52"></polygon>
+                    <polygon fill="#F7C30F" points="69.7450909 161.04 139.26 120.78 139.26 40.26 69.7450909 80.52"></polygon>
+                </g>
+                <g id="Shape" transform="translate(52.837190, 61.000000)">
+                    <polygon fill="#E0A800" points="52.8371901 0 0 30.5 52.8371901 61 105.5 30.5"></polygon>
+                    <polygon fill="#FFEC52" points="0 30.5 0 91.5 52.8371901 122 52.8371901 61"></polygon>
+                    <polygon fill="#F7C30F" points="52.8371901 122 105.5 91.5 105.5 30.5 52.8371901 61"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
