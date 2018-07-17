@@ -15,6 +15,7 @@ $baseurl:"{{ site.baseurl }}";
 @import 'components/astro-hq';
 @import 'components/auth0';
 @import 'components/github';
+@import 'components/gitlab';
 @import 'components/heap';
 @import 'components/help-scout';
 @import 'components/heroes';
