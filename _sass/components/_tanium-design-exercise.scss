@@ -12,6 +12,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3rem;
 
   h1 {
     font-size: 1.5rem;
@@ -44,6 +45,18 @@
     background-color: #e31d1a;
     color: #fff;
   }
+}
+
+.row-animated-image {
+  display: block;
+  margin: 2rem auto 4rem auto;
+  max-width: 1000px;
+}
+
+.row-static-image {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 800px;
 }
 
 section {
