@@ -43,7 +43,7 @@ $brand-color: #ec3430;
       z-index: -1;
     }
 
- 
+
   & .introduction h1 {
     font-size: 1.85em;
     @media screen and (min-width: $middle-screen) {
@@ -51,6 +51,7 @@ $brand-color: #ec3430;
     }
     @media screen and (min-width: $large-screen) {
       font-size: 2.75em;
+      max-width: 12em;
     }
   }
 
