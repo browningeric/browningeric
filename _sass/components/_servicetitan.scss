@@ -1,4 +1,4 @@
-$brand-color: #005599;
+$brand-color: #FF8424;
 
 .servicetitan {
   & .contact-links {
@@ -15,7 +15,7 @@ $brand-color: #005599;
   }
 
   & .introduction {
-    background-color: #172e50;
+    background-color: #023954;
     background-image: linear-gradient(-264deg, rgba(12,15,25,0.95) 0%, rgba(27,34,54,0.95) 90%,);
     padding: 3.5vmax 0 10vmax;
   }
@@ -27,11 +27,11 @@ $brand-color: #005599;
       left: 0px;
       width: 100%;
       height: 100%;
-      background-image: url($baseurl + '/assets/images/tts/logo.svg');
-      background-position: right -15vmax top -15vmax;
+      background-image: url($baseurl + '/assets/images/servicetitan/logo.svg');
+      background-position: right -10vmax top -10vmax;
       background-repeat: no-repeat;
       background-size: 55vmax;
-      opacity: 0.09;
+      opacity: 0.15;
       pointer-events: none;
       z-index: -1;
     }
@@ -83,8 +83,9 @@ $brand-color: #005599;
   }
 }
 
-.tts-header-image {
+.servicetitan-header-image {
   display: block;
+  filter: invert(1);
   max-width: 85px;
   @media screen and (min-width: $middle-screen) {
     max-width: 120px;
