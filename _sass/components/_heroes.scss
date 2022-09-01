@@ -70,24 +70,6 @@
   }
 }
 
-.hero-tanium-nav {
-  background: #1B2029;
-  background-image: linear-gradient(180deg, #1E2C3B 0%, #1B2029 20%, #1B2029 100%);
-  color: #fff;
-  padding-top: 3em;
-
-  & h1 {
-    font-size: 2.5em;
-    text-align: center;
-  }
-
-  & img {
-    display: block;
-    margin: 0 auto;
-    max-width: 1600px;
-  }
-}
-
 .hero-polar-puzzles {
   background: #9bbaf8;
   color: #232352;
@@ -124,6 +106,43 @@
     max-width: 1600px;
   }
 }
+
+.hero-taniumpatchanddeploy {
+  background: #3A0808;
+  background-image: linear-gradient(180deg, #2E0909 0%, #3A0808 25%, #3A0808 100%);
+  color: #fff;
+  padding-top: 2em;
+
+  & h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
+.hero-tanium-nav {
+  background: #1B2029;
+  background-image: linear-gradient(180deg, #1E2C3B 0%, #1B2029 20%, #1B2029 100%);
+  color: #fff;
+  padding-top: 3em;
+
+  & h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
 .head {
   margin-bottom: 0;
 }
