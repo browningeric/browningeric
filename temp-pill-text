@@ -27,3 +27,15 @@
   <li>Prototyping</li>
   <li>Responsive Web</li>
 </ul>
+
+
+<section id="tests">
+  <ul>
+    <li><strong><a href="case-studies/tts/tan-activity.html">Tanium Activity Panel</a></strong></li>
+    <li><a href="case-studies/tts/tan-dashboard.html">Tanium Executive Dashboard</a></li>
+    <li><a href="case-studies/tts/tan-deployments.html">Tanium Deployments Experience</a></li>
+    <li><strong><a href="case-studies/tts/tan-navigation.html">Tanium Navigation Redesign</a></strong></li>
+    <li><strong><a href="case-studies/tts/tan-patchanddeploy.html">Tanium Patch and Deploy Modules</a></strong></li>
+    <li><a href="case-studies/tts/tan-quickaccess.html">Tanium Quick Access</a></li>
+  </ul>
+</section>

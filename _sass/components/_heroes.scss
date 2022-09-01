@@ -107,6 +107,24 @@
   }
 }
 
+.hero-tanium-activity {
+  background: #1C1D20;
+  background-image: linear-gradient(180deg, #313236 0%, #1C1D20 20%, #1C1D20 100%);
+  color: #fff;
+  padding-top: 2.5em;
+
+  & h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
 .hero-taniumpatchanddeploy {
   background: #3A0808;
   background-image: linear-gradient(180deg, #2E0909 0%, #3A0808 25%, #3A0808 100%);
