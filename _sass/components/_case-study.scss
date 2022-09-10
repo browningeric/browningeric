@@ -7,6 +7,20 @@
     }
   }
 
+  .float-left-image {
+    @media screen and (min-width: $large-screen) {
+      float: left;
+      padding: 1em 2em 0 1em;
+    }
+  }
+
+  .float-right-image {
+    @media screen and (min-width: $large-screen) {
+      float: right;
+      padding: 1em 0 1em 2em;
+    }
+  }
+
   .inline-image {
     padding: 1.5em 0;
   }
@@ -15,6 +29,12 @@
     display: block;
     margin: 0 auto;
     max-width: 1600px;
+  }
+
+  .limit-width-image--smaller {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
   }
 
   .mini-section-header {
