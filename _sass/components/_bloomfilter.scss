@@ -45,11 +45,10 @@ $brand-color: #6a5ee9;
     }
   }
   .resume-button {
-
     &:focus,
     &:hover {
       background: $brand-color;
-      color: #000;
+      color: #fff;
     }
   }
 
