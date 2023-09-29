@@ -161,6 +161,24 @@
   }
 }
 
+.hero-bfilter {
+  background: #1B2029;
+  background-image: linear-gradient(180deg, #3D3E9C 0%, #3D3E9C 20%, #9C2083 100%);
+  color: #fff;
+  padding-top: 3em;
+
+  & h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  & img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
+
 .head {
   margin-bottom: 0;
 }
