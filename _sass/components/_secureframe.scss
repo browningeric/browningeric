@@ -1,4 +1,4 @@
-$brand-color: #fff;
+$brand-color: #5FCD89;
 
 .secureframe{
   & .contact-links {
@@ -16,7 +16,7 @@ $brand-color: #fff;
 
   & .introduction {
     background-color: #fff;
-    background-image: linear-gradient(135deg, rgba(11,151,100,1) 10%, rgba(9,60,52,1) 75%);
+    background-image: linear-gradient(135deg, rgba(9,25,34,1) 10%, rgba(9,25,34,1) 75%);
     color: #fff;
     padding: 3.5vmax 0 10vmax;
   }
@@ -31,14 +31,14 @@ $brand-color: #fff;
       background-image: url($baseurl + '/assets/images/secureframe/logo.svg');
       background-position: right -2vmax top 30%;
       background-repeat: no-repeat;
-      background-size: 60vmax;
-      opacity: 0.1;
+      background-size: 45vmax;
+      opacity: 0.125;
       pointer-events: none;
       z-index: -1;
     }
 
   & .introduction-border {
-      background-color: $brand-color;
+      background-color: #fff;
       height: 1000px;
       margin-top: -950px;
       z-index: -1;
@@ -47,6 +47,7 @@ $brand-color: #fff;
 
   & .introduction h1 {
     font-size: 1.85em;
+    font-weight: 500;
     @media screen and (min-width: $middle-screen) {
       font-size: 2em;
     }
