@@ -63,12 +63,12 @@ $brand-color: #5FCD89;
     }
   }
   .resume-button {
-    background: rgba(0,0,0,.25);
-    color: #fff;
+    background: $brand-color;
+    color: #333;
     &:focus,
     &:hover {
-      background: $brand-color;
-      color: #333;
+      background: rgba(255,255,255,.25);
+      color: #fff;
     }
   }
 
