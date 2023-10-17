@@ -47,6 +47,7 @@ $brand-color: #0d528b;
 
   & .introduction h1 {
     font-size: 1.85em;
+    font-weight: 500;
     @media screen and (min-width: $middle-screen) {
       font-size: 2em;
     }
