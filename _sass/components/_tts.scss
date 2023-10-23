@@ -83,13 +83,3 @@ $brand-color: #005599;
     }
   }
 }
-
-.tts-header-image {
-  display: block;
-  max-width: 85px;
-  @media screen and (min-width: $middle-screen) {
-    max-width: 100px;
-  }
-  padding-bottom: 1.5em;
-  width: 100%;
-}
