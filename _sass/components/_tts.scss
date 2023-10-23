@@ -28,16 +28,16 @@ $brand-color: #005599;
       width: 100%;
       height: 100%;
       background-image: url($baseurl + '/assets/images/tts/logo.svg');
-      background-position: right -15vmax top -15vmax;
+      background-position: right -3vmax top 30%;
       background-repeat: no-repeat;
-      background-size: 55vmax;
-      opacity: 0.09;
+      background-size: 35vmax;
+      opacity: 0.05;
       pointer-events: none;
       z-index: -1;
     }
 
   & .introduction-border {
-      background-color: #22283c;
+      background-color: #fff;
       height: 1000px;
       margin-top: -950px;
       z-index: -1;
@@ -46,6 +46,7 @@ $brand-color: #005599;
 
   & .introduction h1 {
     font-size: 1.85em;
+    font-weight: 500;
     @media screen and (min-width: $middle-screen) {
       font-size: 2em;
     }
@@ -87,7 +88,7 @@ $brand-color: #005599;
   display: block;
   max-width: 85px;
   @media screen and (min-width: $middle-screen) {
-    max-width: 120px;
+    max-width: 100px;
   }
   padding-bottom: 1.5em;
   width: 100%;
