@@ -1,8 +1,11 @@
 .container {
   clear: both;
   margin: 0 auto;
-  max-width: 60em;
-  padding: 1.5rem 3rem;
+  max-width: 52em;
+  padding: 1.5rem 2rem;
+  @media screen and (min-width: $middle-screen) {
+    padding: 1.5rem 3rem;
+  }
 }
 
 .container--limited {

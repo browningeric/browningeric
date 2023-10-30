@@ -1,4 +1,15 @@
 .case-study {
+
+  b {
+    font-weight: 600;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    color: #d1d1d1;
+    background-color: #d1d1d1;
+  }
   section {
     padding: 2em 0;
 
@@ -7,9 +18,10 @@
     }
   }
 
+
   .float-left-image {
     padding: 1.5em 0;
-    @media screen and (min-width: $large-screen) {
+    @media screen and (min-width: $middle-screen) {
       float: left;
       padding: 1em 2em 0 1em;
     }
@@ -17,9 +29,28 @@
 
   .float-right-image {
     padding: 1.25em 0;
-    @media screen and (min-width: $large-screen) {
+    @media screen and (min-width: $middle-screen) {
       float: right;
       padding: 1em 0 1em 2em;
+    }
+  }
+
+  .floated-image {
+    width: 100%;
+    @media screen and (min-width: $middle-screen) {
+      width: 380px;
+    }
+  }
+
+  .floated-left {
+    @media screen and (min-width: $middle-screen) {
+      float: left;
+    }
+  }
+
+  .floated-right {
+    @media screen and (min-width: $middle-screen) {
+      float: right;
     }
   }
 
@@ -43,12 +74,55 @@
     margin-top: 1.5em;
   }
 
+
+  .wide-container {
+    max-width: 52em;
+  }
+
+  .width-40 {
+    @media screen and (min-width: $middle-screen) {
+      width: 40%
+    }
+  }
+
+  .width-50 {
+    @media screen and (min-width: $middle-screen) {
+      width: 50%
+    }
+  }
+
   ul {
     padding-left: 1em;
     li {
       padding-bottom: 1em;
     }
   }
+
+  .role-list {
+    font-size: 85%;
+    margin-left: 0;
+    padding-left: 0;
+    li {
+      border-right: 1px solid #d1d1d1;
+      padding: 0 .5em;
+      display: inline;
+      list-style-type: none;
+      vertical-align: baseline;
+    }
+    li:first-child {
+      padding-left: 0;
+    }
+    li:last-child {
+      border-right: none;
+    }
+  }
+
+  .space-top {
+    @media screen and (min-width: $middle-screen) {
+      margin-top: 2em;
+    }
+  }
+
 }
 
 .case-study-trello {
