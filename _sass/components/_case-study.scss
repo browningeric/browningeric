@@ -117,6 +117,18 @@
     }
   }
 
+  .highlight-red {
+    color: #A82122;
+  }
+
+  .highlight-maroon {
+    color: #4F0B0C;
+  }
+
+  .highlight-purple {
+    color: #291E6A;
+  }
+
   .space-top {
     @media screen and (min-width: $middle-screen) {
       margin-top: 2em;
