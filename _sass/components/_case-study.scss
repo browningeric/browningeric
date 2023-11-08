@@ -18,6 +18,10 @@
     }
   }
 
+  .container {
+    clear: both;
+  }
+
 
   .float-left-image {
     padding: 1.5em 0;
@@ -45,6 +49,7 @@
   .floated-left {
     @media screen and (min-width: $middle-screen) {
       float: left;
+      margin-right: 1.5em;
     }
   }
 
@@ -52,6 +57,38 @@
     @media screen and (min-width: $middle-screen) {
       float: right;
     }
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: column;
+    gap: 2em;
+    @media screen and (min-width: $middle-screen) {
+      flex-flow: row;
+    }  
+  }
+
+  .flex-image-grid {
+    align-items: center;
+    flex-flow: column;
+    @media screen and (min-width: $middle-screen) {
+      flex-flow: row wrap;
+    }
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+
+    .grid-image {
+      max-width: 80%;
+      @media screen and (min-width: $middle-screen) {
+        max-width: 40%;
+      }
+    }
+  }
+
+  .flex-primary-column {
+    flex-basis: 85%;
   }
 
   .inline-image {
@@ -67,6 +104,10 @@
   .limit-width-image--smaller {
     display: block;
     margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .limit-width-image--smaller--left {
     max-width: 500px;
   }
 
@@ -95,6 +136,12 @@
     padding-left: 1em;
     li {
       padding-bottom: 1em;
+    }
+  }
+
+  .interview-list {
+    li {
+      margin-left: 100px;
     }
   }
 

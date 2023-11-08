@@ -26,7 +26,7 @@
   </div>
   <div class="container container--limited">
     <hr>
-    <h2 class="floated-left width-40">Initial scope, research, and insights</h2>
+    <h2 class="floated-left width-40 highlight-purple">Initial scope, research, and insights</h2>
     <div class="floated-right width-50">
       <p>When I started with Bloomfilter the platform was essentially a proof of concept. The general idea resonated with early customers but UX had not been a priority and there were no design standards in place.</p>
       <p>We needed to understand where we should go next.</p>
@@ -39,24 +39,51 @@
       </ul>
     </div>
   </div>
+  <div class="container">
+    <div class="flex-container flex-image-grid">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-research-1.png">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-research-2.png">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-research-3.png">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-research-4.png">
+    </div>
+  </div>
   <div class="container container--limited">
-    <h2>Strategic Priorities</h2>
+    <h2 class="highlight-purple">New Feature: Strategic Priorities</h2>
     <p>One thing users repeatedly asked for was an ability to define high level plans and goals, so that the granular data Bloomfilter presented could be tied back to those for tracking, performance reviews, and resource planning.</p>
-    <p>The scope was kept narrow and focused with the understanding further integrations and enhancements would add more capability over time. What was the most basic unit we could ask a user to define? What was the most impactful data they would see right away?</p>
+    <p>The scope was kept narrow and focused with the understanding further integrations and enhancements would add more capability over time.</p>
+    <p><b>What was the most basic unit we could ask a user to define? What was the most impactful data they would see right away?</b></p>
   </div>
   <video width="80%" controls class="inline-image limit-width-image">
     <source src="https://res.cloudinary.com/browningeric/video/upload/c_scale,w_1724/v1695926108/initiatives-flow.mp4" type="video/mp4" />
   </video>
-  <div class="container container--limited">
-    <h2>A View into Financials</h2>
-    <p>A key challenge I heard was how to bridge the gap between engineering deliverables and intervals (cards, points, sprints, etc) and those used by the organization at large (dollars, quarters, etc).</p>
-    <p>I designed a flow based on division, where users enter in either budgeted or total spend amounts and calculations can be made based on that. Typical models were multiplication based, using average rates for employees and other metrics which were often problematic and inaccurate. The general solution was a multi-axis graph of arbitrary time series data. Although it felt complex to me it was very well received in testing, offering a flexible and insightful view.</p>
-    <video width="100%" controls class="inline-image limit-width-image">
-      <source src="https://res.cloudinary.com/browningeric/video/upload/c_scale,w_1784/v1695926086/financials-flow.mp4" type="video/mp4" />
-    </video>
+</section>
+<section>
+  <div class="container flex-container">
+    <div>
+      <h2 class="highlight-purple">A View into Financials</h2>
+      <p>Another key challenge I heard was how to bridge the gap between engineering deliverables and intervals (cards, points, sprints, etc) and those used by the organization at large (dollars, quarters, etc).</p>
+      <p>I prototyped a view focused on using aggregate values combined with data in the platform.</p>
+      <p><b>This didn't work for users as aggregate values were inaccurate and the view still required looking at various different contexts and piecing them together.</b></p>
+    </div>
+    <div>
+      <a href="{{base}}/assets/images/bfilter-financials-initial.png" target="_blank">
+        <img alt="Initial financials prototype" src="{{base}}/assets/images/bfilter-financials-initial.png">
+      </a>
+    </div>
   </div>
+</section>
+<section>
   <div class="container container--limited">
-    <h2>Design System</h2>
+    <div>
+      <h2 class="highlight-purple">Iterating based on Feedback</h2>
+      <p>I redesigned a flow based on division, where users entered in spend amounts and calculations were made based on that. The primary visualization was a multi-axis graph of arbitrary time series data. Although it initially felt complex to me it was very well received in testing, offering a flexible and insightful view.</p>
+    </div>
+  </div>    
+  <video width="80%" controls class="inline-image limit-width-image">
+    <source src="https://res.cloudinary.com/browningeric/video/upload/c_scale,w_1784/v1695926086/financials-flow.mp4" type="video/mp4" />
+  </video>
+  <div class="container container--limited">
+    <h2 class="highlight-purple">Design System</h2>
     <p>While building out these features, I worked closely with our engineering team to begin defining and implementing a basic design system. I started very tactically, cleaning up and presenting a color palette, basic text styling, and common UI controls like buttons. I took care to document the <em>why?</em> for decisions to support growth and expansion.</p>
     <p>We set up a Storybook instance and began to tie in common settings and values as design tokens.</p>
   </div>
@@ -65,10 +92,14 @@
   </a>
 </section>
 <section>
-  <div class="container">
-    <h2>Results</h2>
-    <p>These features and the design system are helping Bloomfilter launch their platform.</p>
-    <h3>Increase in time users spent on platform: ~20%</h3>
-    <p>Demos were done at several conferences focused on these features and prototypes I built, leading to dozens of new leads for the sales pipeline.</p>
+  <div class="container flex-container">
+    <div>
+      <h2 class="highlight-purple">Results</h2>
+      <p>These features and the design system are helping Bloomfilter launch their platform.</p>
+    </div>
+    <div class="flex-container flex-image-grid">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-results-1.png">
+      <img alt="A representative image of redesigned software navigation" class="grid-image" src="{{base}}/assets/images/bfilter-results-2.png">
+    </div>
   </div>
 </section>
