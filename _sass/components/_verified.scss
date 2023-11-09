@@ -1,12 +1,12 @@
-$brand-color: #ff7a00;
+$brand-color: #370304;
 
-.kentik{
+.verified{
   & .contact-links {
     margin-left: -.4em;
   }
 
   & .contact-links a {
-    color: #fff;
+    color: #333;
     &:focus,
     &:hover {
       background: $brand-color;
@@ -16,8 +16,8 @@ $brand-color: #ff7a00;
 
   & .introduction {
     background-color: #fff;
-    background-image: linear-gradient(0deg, rgba(#0869D3,1) 10%, rgba(#124BA6,1) 90%);
-    color: #fff;
+    background-image: linear-gradient(0deg, rgba(#EEE9DE,1) 10%, rgba(#EEE9DE,1) 90%);
+    color: #333;
     padding: 3.5vmax 0 10vmax;
   }
 
@@ -28,15 +28,15 @@ $brand-color: #ff7a00;
       left: 0px;
       width: 100%;
       height: 100%;
-      background-image: url($baseurl + '/assets/images/kentik/logo.svg');
+      opacity: 0;
+      background-image: url($baseurl + '/assets/images/verified/logo.svg');
       background-position: right -2vmax top 30%;
       background-repeat: no-repeat;
-      background-size: 40vmax;
-      opacity: 0;
+      background-size: 60vmax;
       pointer-events: none;
       z-index: -1;
       @media screen and (min-width: $middle-screen) {
-        opacity: 0.08;
+        opacity: 0.06;
       }
     }
 
@@ -70,7 +70,7 @@ $brand-color: #ff7a00;
     color: #fff;
     &:focus,
     &:hover {
-      background: #CD6200;
+      background: rgba(#000,.725);
     }
   }
 
