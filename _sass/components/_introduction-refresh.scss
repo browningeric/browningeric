@@ -27,7 +27,10 @@
   }
 
   .contact-links {
-    margin: 2em 0;
+    margin: .5em 0;
+    @media screen and (min-width: $middle-screen) {
+      margin: 2em 0;
+    }
     a {
       color: #f5ad38;
       display: inline-block;
