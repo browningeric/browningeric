@@ -3,11 +3,18 @@ $brand-color: #0059a2;
 .paychex{
 
   & .contact-links {
-    margin-left: -.4em;
+    display: none; 
+    font-size: 75%;
+    margin: 0;
+    @media screen and (min-width: $middle-screen) {
+      display: inline-block;
+    }
+
   }
 
   & .contact-links a {
     color: #333;
+    text-decoration: none;
     &:focus,
     &:hover {
       background: $brand-color;
@@ -19,7 +26,7 @@ $brand-color: #0059a2;
     background-color: #333;
     background-image: linear-gradient(0deg, rgba(#F3F7FA,1) 10%, rgba(#F3F7FA,1) 90%);
     color: #333;
-    padding: 3.5vmax 0 10vmax;
+    padding: 1.5vmax 0 3vmax;
   }
 
   & .introduction::after {
@@ -31,13 +38,13 @@ $brand-color: #0059a2;
       height: 100%;
       opacity: 0; 
       background-image: url($baseurl + '/assets/images/paychex/logo.svg');
-      background-position: right -2vmax top 30%;
+      background-position: left 1vmax top 30%;
       background-repeat: no-repeat;
-      background-size: 60vmax;
+      background-size: 100%;
       pointer-events: none;
       z-index: -1;
       @media screen and (min-width: $middle-screen) {
-        opacity: 0.1;
+        opacity: 0;
       }
     }
 
@@ -50,22 +57,48 @@ $brand-color: #0059a2;
 
 
   & .introduction h1 {
-    font-size: 1.85em;
+    font-size: 1.5em;
     font-weight: 500;
+    text-align: center;
     @media screen and (min-width: $middle-screen) {
       font-size: 2em;
     }
     @media screen and (min-width: $large-screen) {
-      font-size: 2.75em;
+      font-size: 2em;
       max-width: none;
     }
   }
 
   & .introduction h2 {
     @media screen and (min-width: $large-screen) {
-      font-size: 1.7em;
+      font-size: 1.5em;
     }
   }
+
+  .flex-center-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-container {
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: $middle-screen) { 
+      flex-direction: row;
+    }
+    gap: 1em;
+    margin: -1em 0 0;
+  }
+
+  .logo {
+    max-width: 140px;
+    opacity: 0;
+    @media screen and (min-width: $middle-screen) {
+      opacity: 1;
+    }
+  }
+
   .resume-button {
     background: $brand-color;
     color: #fff;
